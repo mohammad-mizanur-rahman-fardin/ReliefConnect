@@ -14,17 +14,17 @@
           <li><a href="about.php" class="hover:text-white">About Us</a></li>
           <li><a href="how_it_works.php" class="hover:text-white">How It Works</a></li>
           <li><a href="our_camps.php" class="hover:text-white">Our Camps</a></li>
-          <li><a href="#" class="hover:text-white">Reports</a></li>
+          <li><a href="report_analytics.php" class="hover:text-white">Reports</a></li>
         </ul>
       </div>
       <!-- Get Involved -->
       <div>
         <h4 class="text-sm font-bold mb-4">Get Involved</h4>
         <ul class="space-y-2 text-gray-400 text-xs">
-          <li><a href="#" class="hover:text-white">Volunteer</a></li>
-          <li><a href="#" class="hover:text-white">Donate</a></li>
-          <li><a href="#" class="hover:text-white">Partner With Us</a></li>
-          <li><a href="#" class="hover:text-white">Request Help</a></li>
+          <li><a href="volunteer_footer.php" class="hover:text-white">Volunteer</a></li>
+          <li><a href="donor_footer.php" class="hover:text-white">Donate</a></li>
+          <li><a href="partner_with_us.php" class="hover:text-white">Partner With Us</a></li>
+          <li><a href="request_help.php" class="hover:text-white">Request Help</a></li>
         </ul>
       </div>
       <!-- Emergency Contact -->
@@ -50,3 +50,4 @@
       © 2026 ReliefConnect. All rights reserved. Built with care for communities in need.
     </div>
   </div>
+  

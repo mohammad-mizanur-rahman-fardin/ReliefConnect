@@ -273,9 +273,8 @@
   </section>
 
   <!-- MINIMAL FOOTER -->
-  <footer class="bg-black border-t border-gray-800 py-5 px-6 text-center text-gray-500 text-xs">
-    © 2026 ReliefConnect. All rights reserved. Built with care for communities in need.
-  </footer>
+  <div class="border-t border-gray-800"></div>
+  <?php include 'footer.php'; ?>
 
 </body>
 </html>

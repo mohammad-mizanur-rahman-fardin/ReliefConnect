@@ -63,8 +63,8 @@
       </ul>
     </div>
     <div class="flex items-center gap-3">
-      <a href="#" class="text-sm text-white hover:text-gray-300">Login</a>
-      <a href="#" class="cyan-bg text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90">Register</a>
+      <a href="role_page.php" class="text-sm text-white hover:text-gray-300">Login</a>
+      <a href="role_page.php" class="cyan-bg text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90">Register</a>
     </div>
   </nav>
 
