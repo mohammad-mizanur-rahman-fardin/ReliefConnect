@@ -15,24 +15,7 @@
 <body class="text-gray-900" style="background:#eef4f8; min-height:100vh;">
 
   <!-- NAVBAR -->
-  <nav class="bg-black text-white px-6 py-3 flex items-center justify-between sticky top-0 z-50">
-    <div class="flex items-center gap-8">
-      <div class="text-xl font-bold">
-        <span style="color:#00BCFF">Relief</span><span class="text-white">Connect</span>
-      </div>
-      <ul class="hidden md:flex gap-6 text-sm text-gray-300">
-        <li><a href="index.php" class="hover:text-white">Home</a></li>
-        <li><a href="#" class="hover:text-white">Campaigns</a></li>
-        <li><a href="about.php" class="hover:text-white">About</a></li>
-        <li><a href="contact.php" class="hover:text-white">Contact</a></li>
-        <li><a href="how_it_works.php" class="hover:text-white">How It Works</a></li>
-      </ul>
-    </div>
-    <div class="flex items-center gap-3">
-      <a href="#" class="text-sm text-white hover:text-gray-300">Login</a>
-      <a href="#" class="text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90" style="background:#00BFFF">Register</a>
-    </div>
-  </nav>
+  <?php include 'navbar.php'; ?>
 
   <!-- MAIN CONTENT -->
   <main class="py-12 px-4 flex justify-center">
@@ -60,12 +43,6 @@
 
       <!-- Form Card -->
       <div class="bg-white rounded-b-2xl shadow-lg px-7 pt-6 pb-7">
-
-        <!-- Tab Toggle -->
-        <div class="flex rounded-xl overflow-hidden border border-gray-200 mb-6">
-          <button class="flex-1 py-2.5 text-sm font-bold text-gray-900 bg-white transition-colors">Login</button>
-          <a href="admin_register.php" class="flex-1 py-2.5 text-sm font-semibold text-gray-500 bg-gray-50 hover:bg-gray-100 border-l border-gray-200 transition-colors text-center">Register</a>
-        </div>
 
         <!-- Email Address -->
         <div class="mb-4">
@@ -101,9 +78,11 @@
         </div>
 
         <!-- Login Button -->
-        <button class="w-full text-white text-sm font-bold py-3 rounded-lg hover:opacity-90 transition-opacity mb-5" style="background:#00BFFF">
-          Login
-        </button>
+        <a href="admin_dashboard.php">
+          <button class="w-full text-white text-sm font-bold py-3 rounded-lg hover:opacity-90 transition-opacity mb-5" style="background:#00BFFF">
+            Login
+          </button>
+        </a>
 
         <!-- Back to Home -->
         <div class="text-center">

@@ -15,23 +15,7 @@
 <body class="text-gray-900" style="background:#eef4f8; min-height:100vh;">
 
   <!-- NAVBAR -->
-  <nav class="bg-black text-white px-6 py-3 flex items-center justify-between sticky top-0 z-50">
-    <div class="flex items-center gap-8">
-      <div class="text-xl font-bold">
-        <span style="color:#00BFFF">Relief</span><span class="text-white">Connect</span>
-      </div>
-      <ul class="hidden md:flex gap-6 text-sm text-gray-300">
-        <li><a href="#" class="hover:text-white">Home</a></li>
-        <li><a href="#" class="hover:text-white">Campaigns</a></li>
-        <li><a href="#" class="hover:text-white">About</a></li>
-        <li><a href="#" class="hover:text-white">Contact</a></li>
-      </ul>
-    </div>
-    <div class="flex items-center gap-3">
-      <a href="#" class="text-sm text-white hover:text-gray-300">Login</a>
-      <a href="#" class="text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90" style="background:#00BFFF">Register</a>
-    </div>
-  </nav>
+  <?php include 'navbar.php'; ?>
 
   <!-- MAIN CONTENT -->
   <main class="py-12 px-4 flex justify-center">

@@ -3,7 +3,7 @@
       <!-- Brand -->
       <div>
         <div class="text-xl font-bold">
-          <span style="color:#00BCFF">Relief</span><span class="text-white">Connect</span>
+          <a href="index.php"><span style="color:#00BCFF">Relief</span><span class="text-white">Connect</span></a>
         </div>
         <p class="text-gray-400 text-xs leading-relaxed">Coordinating disaster relief efforts and connecting communities in crisis.</p>
       </div>

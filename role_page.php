@@ -127,24 +127,7 @@
 <body class="bg-slate-50 text-gray-800 flex flex-col min-h-screen">
 
 <!-- ── NAV ── -->
-<nav class="bg-black text-white px-6 py-3 flex items-center justify-between sticky top-0 z-50">
-  <div class="flex items-center gap-8">
-    <div class="text-xl font-bold">
-      <span style="color:#00BCFF">Relief</span><span class="text-white">Connect</span>
-    </div>
-    <ul class="hidden md:flex gap-6 text-sm text-gray-300">
-      <li><a href="index.php" class="hover:text-white">Home</a></li>
-      <li><a href="#" class="hover:text-white">Campaigns</a></li>
-      <li><a href="about.php" class="hover:text-white">About</a></li>
-      <li><a href="contact.php" class="hover:text-white">Contact</a></li>
-      <li><a href="how_it_works.php" class="hover:text-white">How It Works</a></li>
-    </ul>
-  </div>
-  <div class="flex items-center gap-3">
-    <a href="#" class="text-sm text-white hover:text-gray-300">Login</a>
-    <a href="#" class="text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90" style="background:#00BFFF">Register</a>
-  </div>
-</nav>
+<?php include 'navbar.php'; ?>
 
 <!-- ── MAIN ── -->
 <main class="flex-1 flex flex-col items-center py-14 px-4">
@@ -161,39 +144,45 @@
 
       <!-- Admin -->
       <div class="role-card card-admin">
-        <div class="icon-wrap icon-admin">
-          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-            <path d="M12 2L4 6v6c0 5.25 3.5 10.15 8 11.35C16.5 22.15 20 17.25 20 12V6L12 2z" fill="white"/>
-            <path d="M9 12l2 2 4-4" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg text-gray-900 mb-1">Admin</h3>
-        <p class="text-sm text-gray-500">Manage system, camps, and approvals</p>
+        <a href="admin_login.php">
+          <div class="icon-wrap icon-admin">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+              <path d="M12 2L4 6v6c0 5.25 3.5 10.15 8 11.35C16.5 22.15 20 17.25 20 12V6L12 2z" fill="white"/>
+              <path d="M9 12l2 2 4-4" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-1">Admin</h3>
+          <p class="text-sm text-gray-500">Manage system, camps, and approvals</p>
+        </a>
       </div>
 
       <!-- Camp Manager -->
       <div class="role-card card-manager">
-        <div class="icon-wrap icon-manager">
-          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-            <circle cx="9" cy="7" r="3" fill="white"/>
-            <circle cx="15" cy="7" r="3" fill="white" opacity="0.7"/>
-            <path d="M3 19c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
-            <path d="M15 13c2.5 0 5 1.5 5 4.5" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg text-gray-900 mb-1">Camp Manager</h3>
-        <p class="text-sm text-gray-500">Manage relief camps and volunteers</p>
+        <a href="manager_register.php">
+          <div class="icon-wrap icon-manager">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+              <circle cx="9" cy="7" r="3" fill="white"/>
+              <circle cx="15" cy="7" r="3" fill="white" opacity="0.7"/>
+              <path d="M3 19c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <path d="M15 13c2.5 0 5 1.5 5 4.5" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-1">Camp Manager</h3>
+          <p class="text-sm text-gray-500">Manage relief camps and volunteers</p>
+        </a>
       </div>
 
       <!-- Volunteer -->
       <div class="role-card card-volunteer">
-        <div class="icon-wrap icon-volunteer">
-          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-            <path d="M12 21C12 21 4 14.5 4 8.5C4 5.42 6.42 3 9.5 3C11.04 3 12 4 12 4C12 4 12.96 3 14.5 3C17.58 3 20 5.42 20 8.5C20 14.5 12 21 12 21Z" fill="white"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg text-gray-900 mb-1">Volunteer</h3>
-        <p class="text-sm text-gray-500">View tasks and update status</p>
+        <a href="volunteer_register.php">
+          <div class="icon-wrap icon-volunteer">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+              <path d="M12 21C12 21 4 14.5 4 8.5C4 5.42 6.42 3 9.5 3C11.04 3 12 4 12 4C12 4 12.96 3 14.5 3C17.58 3 20 5.42 20 8.5C20 14.5 12 21 12 21Z" fill="white"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-1">Volunteer</h3>
+          <p class="text-sm text-gray-500">View tasks and update status</p>
+        </a>
       </div>
     </div>
 
@@ -202,25 +191,29 @@
 
       <!-- Donor -->
       <div class="role-card card-donor">
-        <div class="icon-wrap icon-donor">
-          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-            <text x="7" y="18" font-size="16" font-weight="bold" fill="white" font-family="Inter,sans-serif">$</text>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg text-gray-900 mb-1">Donor</h3>
-        <p class="text-sm text-gray-500">Donate and track contributions</p>
+        <a href="donor_register.php">
+          <div class="icon-wrap icon-donor">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+              <text x="7" y="18" font-size="16" font-weight="bold" fill="white" font-family="Inter,sans-serif">$</text>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-1">Donor</h3>
+          <p class="text-sm text-gray-500">Donate and track contributions</p>
+        </a>
       </div>
 
       <!-- Affected Person -->
       <div class="role-card card-affected">
-        <div class="icon-wrap icon-affected">
-          <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-            <circle cx="12" cy="8" r="4" fill="white"/>
-            <path d="M4 20c0-4 3.582-7 8-7s8 3 8 7" stroke="white" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <h3 class="font-bold text-lg text-gray-900 mb-1">Affected Person</h3>
-        <p class="text-sm text-gray-500">Request help and view relief status</p>
+        <a href="victim_register.php">
+          <div class="icon-wrap icon-affected">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
+              <circle cx="12" cy="8" r="4" fill="white"/>
+              <path d="M4 20c0-4 3.582-7 8-7s8 3 8 7" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-1">Affected Person</h3>
+          <p class="text-sm text-gray-500">Request help and view relief status</p>
+        </a>
       </div>
 
       <div></div>

@@ -64,21 +64,7 @@
 <body class="bg-slate-100 text-gray-800 flex flex-col min-h-screen">
 
 <!-- ── NAV ── -->
-<nav class="bg-black px-8 py-4 flex items-center justify-between">
-  <div class="text-xl font-bold">
-    <span style="color:#00BFFF;">Relief</span><span class="text-white">Connect</span>
-  </div>
-  <div class="flex items-center gap-8">
-    <a href="#" class="text-sm text-gray-300 hover:text-white">Home</a>
-    <a href="#" class="text-sm text-gray-300 hover:text-white">Campaigns</a>
-    <a href="#" class="text-sm text-gray-300 hover:text-white">About</a>
-    <a href="#" class="text-sm text-gray-300 hover:text-white">Contact</a>
-  </div>
-  <div class="flex items-center gap-4">
-    <a href="#" class="text-sm text-gray-300 hover:text-white">Login</a>
-    <button style="background:#00BFFF;" class="text-white text-sm font-semibold px-5 py-2 rounded-lg hover:opacity-90">Register</button>
-  </div>
-</nav>
+<?php include 'navbar.php'; ?>
 
 <!-- ── MAIN ── -->
 <main class="flex-1 flex items-start justify-center py-12 px-4">

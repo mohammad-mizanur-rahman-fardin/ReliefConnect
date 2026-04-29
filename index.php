@@ -49,24 +49,7 @@
 <body class="bg-white text-gray-900">
 
   <!-- NAVBAR -->
-  <nav class="bg-black text-white px-6 py-3 flex items-center justify-between sticky top-0 z-50">
-    <div class="flex items-center gap-8">
-      <div class="text-xl font-bold">
-        <span style="color:#00BCFF">Relief</span><span class="text-white">Connect</span>
-      </div>
-      <ul class="hidden md:flex gap-6 text-sm text-gray-300">
-        <li><a href="#" class="hover:text-white underline-offset-8 underline text-white">Home</a></li>
-        <li><a href="campaigns.php" class="hover:text-white">Campaigns</a></li>
-        <li><a href="about.php" class="hover:text-white">About</a></li>
-        <li><a href="contact.php" class="hover:text-white">Contact</a></li>
-        <li><a href="how_it_works.php" class="hover:text-white">How It Works</a></li>
-      </ul>
-    </div>
-    <div class="flex items-center gap-3">
-      <a href="role_page.php" class="text-sm text-white hover:text-gray-300">Login</a>
-      <a href="role_page.php" class="cyan-bg text-white text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90">Register</a>
-    </div>
-  </nav>
+  <?php include 'navbar.php'; ?>
 
   <!-- HERO -->
   <section class="px-6 md:px-16 py-16 bg-white">
@@ -83,9 +66,9 @@
           A comprehensive platform connecting disaster relief camps, volunteers, donors, and affected communities. Together, we bring aid where it's needed most.
         </p>
         <div class="flex flex-wrap gap-3">
-          <a href="#" class="cyan-bg text-white text-sm font-semibold px-5 py-2.5 rounded-md hover:opacity-90">Request Help</a>
-          <a href="#" class="bg-black text-white text-sm font-semibold px-5 py-2.5 rounded-md hover:bg-gray-800">Become a Volunteer</a>
-          <a href="#" class="border border-gray-300 text-gray-800 text-sm font-semibold px-5 py-2.5 rounded-md hover:bg-gray-50">Donate Now</a>
+          <a href="request_help.php" class="cyan-bg text-white text-sm font-semibold px-5 py-2.5 rounded-md hover:opacity-90">Request Help</a>
+          <a href="volunteer_footer.php" class="bg-black text-white text-sm font-semibold px-5 py-2.5 rounded-md hover:bg-gray-800">Become a Volunteer</a>
+          <a href="donor_footer.php" class="border border-gray-300 text-gray-800 text-sm font-semibold px-5 py-2.5 rounded-md hover:bg-gray-50">Donate Now</a>
         </div>
       </div>
       <div class="flex-1 flex justify-center">
