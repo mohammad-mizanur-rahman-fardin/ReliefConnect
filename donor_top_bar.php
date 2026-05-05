@@ -15,18 +15,18 @@
   <div class="flex items-center gap-[22px]">
 
     <!-- Profile -->
-    <a href="camp_manager_profile.php"
+    <a href="donor_profile.php"
        class="flex items-center px-[22px] py-[3px] rounded-md transition-all duration-200
-       <?php echo ($current_page == 'camp_manager_profile.php') 
+       <?php echo ($current_page == 'donor_profile.php') 
          ? 'bg-[#1e293b]' 
          : 'hover:bg-[#1e293b]'; ?>">
 
       <div class="text-right">
         <p class="text-white text-[14px] font-bold leading-5">
-          John Manager
+          Sarah Thompson
         </p>
         <p class="text-[#94a3b8] text-[12px] text-center">
-          Camp Manager
+          Donor
         </p>
       </div>
 

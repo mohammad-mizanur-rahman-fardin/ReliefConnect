@@ -88,9 +88,9 @@
         </div>
 
         <!-- Login Button -->
-        <button class="w-full text-white text-sm font-bold py-3 rounded-lg hover:opacity-90 transition-opacity mb-5" style="background:#00BFFF">
+        <a href="donor_dashboard.php" class="w-full text-white text-sm font-bold py-3 rounded-lg hover:opacity-90 transition-opacity mb-5 flex items-center justify-center" style="background:#00BFFF">
           Login
-        </button>
+        </a>
 
         <!-- Back to Home -->
         <div class="text-center">
